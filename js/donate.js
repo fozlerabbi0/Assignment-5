@@ -25,7 +25,7 @@ document.getElementById('donate-noakhali').addEventListener('click', function ()
     div.className = 'bg-slate-300 p-8 rounded-lg';
     div.innerHTML = `
             <h2 class="card-title text-color text-xl font-bold">${inputNouakhali} Taka Donate for Flood at Nokhali, Bangladesh</h2>
-            <p class="text-color font-medium text-base">Date: ${new Date().toLocaleDateString()}</p>
+            <p class="text-color font-medium text-base">Date: ${new Date()}</p>
         `
     const historyItem = document.getElementById('history-item');
     historyItem.appendChild(div);
@@ -62,7 +62,7 @@ document.getElementById('donate-feni').addEventListener('click', function () {
     div.className = 'bg-slate-300 p-8 rounded-lg';
     div.innerHTML = `
             <h2 class="card-title text-color text-xl font-bold">${inputFeni} Taka Donate for Flood at feni, Bangladesh</h2>
-            <p class="text-color font-medium text-base">Date: ${new Date().toLocaleDateString()}</p>
+            <p class="text-color font-medium text-base">Date: ${new Date()}</p>
         `
     const historyItem = document.getElementById('history-item');
     historyItem.appendChild(div);
@@ -95,7 +95,7 @@ document.getElementById('donate-quota').addEventListener('click',function(){
     div.className = 'bg-slate-300 p-8 rounded-lg';
     div.innerHTML = `
             <h2 class="card-title text-color text-xl font-bold">${inputQuota} Taka Donate for Flood at Quota, Bangladesh</h2>
-            <p class="text-color font-medium text-base">Date: ${new Date().toLocaleDateString()}</p>
+            <p class="text-color font-medium text-base">Date: ${new Date()}</p>
         `
     const historyItem = document.getElementById('history-item');
     historyItem.appendChild(div);
